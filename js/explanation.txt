@@ -1,0 +1,12 @@
+=====Explanation of /js folder=====
+1) jquery.js
+This is selfexplanatory, visit http://jquery.org for more info on this javascript library.
+
+2) app.js
+This is the main javascript file for this game. It triggers itself with $(document).ready(function() {...});
+It will contain the car objects and the loop method. Contains all of the information about players and score.
+
+3) canvasutils.js
+This is mainly drawing methods for canvas that are very repetitive to type, so they are all fit into nice methods. It is a library of sorts.
+Contains methods for rectangles, circles, ellipses, keyboard, mouse, and in the future "text selections on the bitmap canvas"
+Important thing to note: the UserInterface class is still a work in progress. It works but may get changed a lot from version to version. It has nothing to do with the canvas, but its not big enough for a separate file.
