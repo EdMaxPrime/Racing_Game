@@ -56,6 +56,7 @@ canvas {
     border-width: thick;
     border-radius: 5px;
     border-color: rgb(194, 169, 125);
+    margin: auto 25%;
 }
 a.smallButton {
     text-decoration: none;

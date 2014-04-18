@@ -33,7 +33,7 @@ $(document).ready(function() { //pre-init
 function setup() { //init()
     initCanvasUtils(ctx, {smode : 1});
     ui = new UserInterface(document.getElementById("gameContainer"), canvas);
-    ui.showMenuBar = true;
+    ui.showMenuBar = false;
     ui.body.addEventListener('mousemove', function(evt) {
         pos = getMousePos(ui.body, evt);
         cursor = document.getElementById('cursor');
@@ -44,7 +44,7 @@ function setup() { //init()
     }, false);
     ui.addPlace("/menu/main.html", [{"background-color" : "#f26f21"}, "<b><h2 style='text-align:center;color:#FAEFCC'>Say What???</h2></b><br><br><br><a class='button'>Play</a><a class='button'>Continue Game</a><a class='button'>Help</a><a class='button'>Credits</a><br><br><br><span style='text-align:left;color:#FAEFCC;font-size:11pt;'>Version 0.9 Beta by EdMaxPrime (html5 and canvas)</span>"]);
     ui.addPlace("/menu/credits.html", [{"background-color" : "#f26f21"}, "<b><h2 style='text-align:center;color:#FAEFCC'>Credits</h2></b>"]);
-    ui.redir("/menu/main.html");
+    //ui.redir("/menu/main.html");
 }
 
 function update() {
