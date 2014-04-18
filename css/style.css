@@ -1,0 +1,81 @@
+* {
+    z-index: 5;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1, h3 {
+    /*color: rgb(44, 62, 80);*/
+    color: #aaa;
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0;
+}
+h3 {
+    font-size: 2em;
+    margin: 0;
+}
+a.button {
+    cursor: pointer;
+    font-size: 1.1m;
+    font-weight: 300;
+    padding: 0.5em 2em;
+    text-align: center;
+    color: rgb(250, 219, 151);
+    background-color: rgb(140, 29, 17);
+    width: 45%;
+    left: 25%;
+    right: 25%;
+    margin: 0 auto;
+    display: block;
+    border-bottom-style: solid;
+    border-width: thin;
+    border-color: rgb(120, 19, 7);
+}
+a.button:hover {
+    background-color: rgb(160, 45, 29);
+    color: #ffffff;
+}
+a.button:active {
+    background-color: rgb(190, 66, 23);
+}
+canvas {
+    border-width: thick;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-radius: 3px;
+}
+#gameContainer {
+    width: 50%;
+    padding: 0;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 5px;
+    border-color: rgb(194, 169, 125);
+}
+a.smallButton {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    background-color: rgb(200, 200, 200);
+    border-color: rgb(50, 50, 50);
+    padding: 0.25em 1em;
+    font-size: 0.8em;
+    border-width: thick;
+}
+table.brownyellow {
+    background-color: rgb(190, 66, 23);
+}
+.windowTop {
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
